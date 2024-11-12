@@ -9,28 +9,27 @@ using System.Threading.Tasks;
 
 namespace Ativ._4OpBasicas
 {
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            int op, cont, i = 1;
+public class Program
+{
+static void Main(string[] args)
+{
+int op, cont, i = 1;
 
-            Console.WriteLine("----- Escolha uma Operação: -----");
-            Console.WriteLine("ADIÇÃO");
-            Console.WriteLine("SUBTRAÇÃO");
-            Console.WriteLine("MULTIPLICAÇÃO");
-            Console.WriteLine("DIVISÃO");
+Console.WriteLine("----- Escolha uma Operação: -----");
+Console.WriteLine("ADIÇÃO");
+Console.WriteLine("SUBTRAÇÃO");
+Console.WriteLine("MULTIPLICAÇÃO");
+Console.WriteLine("DIVISÃO");
 
-            op = Convert.ToInt32(Console.ReadLine());
+op = Convert.ToInt32(Console.ReadLine());
 
-            
-            while (i <= 10)
-            {
-                Console.WriteLine(i);
-                i++;
-            }
-            Console.WriteLine("Deseja Sair? - S/N");
-            Console.ReadKey();
-        }
-    }
+while (i <= 10)
+{
+Console.WriteLine(i);
+i++;
+}
+Console.WriteLine("Deseja Sair? - S/N");
+Console.ReadKey();
+}
+}
 }
